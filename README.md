@@ -7,10 +7,13 @@ This plugin can be added your Geodesignhub project using the Administration pane
 
 ## Screenshots
 **Add new feature**
+
 ![logo1](https://i.imgur.com/oW8uId3.jpg)
 
 **Specify system name and diagram type and upload**
+
 ![logo2](https://i.imgur.com/xf8z2gF.jpg)
 
 **Freedraw Features**
+
 ![logo3](https://i.imgur.com/aEPvu1d.jpg)
