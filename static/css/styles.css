@@ -25,7 +25,7 @@ h4 {
 }
 
 #inputmap {
-    height: 400px;
+    height: 500px;
 }
 
 #previewmap {
@@ -481,7 +481,7 @@ ul.input-list li {
     padding: 10px;
     border: solid 5px #c9c9c9;
     transition: border 0.3s;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .style-2 input[type="text"]:focus,
