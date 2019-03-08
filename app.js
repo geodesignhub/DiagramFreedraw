@@ -71,6 +71,7 @@ app.post('/adddiagram/', function(request, response) {
     var diagname = request.body.diagname;
     var targetsysid = request.body.targetsysid;
     var projectorpolicy = request.body.projorpol;
+    var fundingtype = 'o';
     var gj = JSON.parse(request.body.gj);
 
     var cred = "Token " + apitoken;
@@ -80,8 +81,7 @@ app.post('/adddiagram/', function(request, response) {
     } else if (projectorpolicy == 'policy') {
         addurl = baseurl + projectid + '/' + 'systems' + '/' + targetsysid + '/add/policy/';
     }
-    var json = { "featuretype": "polygon", "description": diagname, "geometry": gj };
-
+    var json = { "featuretype": "polygon", "description": diagname, "geometry": gj, "fundingtype":fundingtype };
 
     var options = {
         url: addurl,
