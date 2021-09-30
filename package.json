@@ -1,20 +1,20 @@
 {
     "name": "gdhdiagrambuilder",
     "version": "1.0.0",
-    "description": "A Geodesign Hub plugin build diagram using Leaflet.draw.",
+    "description": "A Geodesignhub plugin build diagram using freedrawing plugin in Leaflet",
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/hrishiballal/DiagramBuilder/"
+        "url": "https://geodesignhub.github.io/DiagramFreedraw/"
     },
     "keywords": [
         "Geodesign",
         "Hub"
     ],
-    "author": "Geodesign Hub",
+    "author": "Geodesignhub",
     "license": "MIT",
     "dependencies": {
         "async": "^1.5.2",
